@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hedy Lamarr</title>
+    <link rel="icon" href="icone/foto_pessoal.jpg">
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Luana Oliveira">
+    <meta name="description" content="Projeto final em HTML5, CSS3 e JavaScript">
+
+    <!--zoom para ser auto ajustado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--normalize-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+   
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+     <!--Medias Queries-->
+     <style type="text/css"> /*inicio media queries*/
+
+        /* extra small devices (landscape phones)*/
+        @media(max-widht: 575.98px) {   }
+        /*small devices (landscape phones)*/ 
+        @media(min-widht:576px) and (max-widht:767.98px) {     }
+
+        /*medium devices (tablet 768px)*/
+        @media(min-widht:768px) and (max-widht:991.98px) {     }
+
+        /*large devices (desktop 992px)*/
+        @media(min-widht:992px) and (max-widht:1199.98px) {     }
+        
+        /*extra large devices (desktops 1200px)*/  
+        @media(min-widht:1200px) {    }         
+        
+    </style> <!--fim media queries-->
+    
+</head>
+
+<body>
+
+    <header><!--abertura cabeçalho-->
+        <nav class="navbar navbar-expand-md"><!--inicio navegação-->
+        <div class="container"><!--inicio container-->     
+
+            <!--logo-->
+            <a href="index.html" class="navbar-brand">
+                <img src="imagem/logo.png" width="90px" height="90px">
+            </a>
+
+            <!--menu hamburguer-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--inicio lista de links-->
+            <div class="collapse navbar-collapse" id="navegacao">
+
+                <!--inicio lista-->
+                <ul class="navbar-nav m-lg-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="ada.html" class="nav-link">Ada Lovelace</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Mary-Kenneth-Keller.html" class="nav-link">Mary Kenneth Keller</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Hedy-Lamarr.html" class="nav-link">Hedy Lamarr</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul> <!--fim lista-->
+            </div> <!--fim lista de links-->
+        </nav> <!-- fim navegação-->
+    </header> <!--fechamento cabeçalho-->
+
+    
+<!--<div id="area-principal">
+"
+"-->
+<div id="area-principal col-md d-flex"><!--inicio conteudo-->
+    <div id="postagens"><!--inicio postagens-->
+
+            <article><!--inicio conteudo principal-->
+                
+                <p class="texto_paragrafo"> 
+                <h4 class="titulo">Hedy Lamarr</h4>
+                <h3 class="data-postagem"> 03 de Novembro de 2023 </h3>
+                <a class="imagem_principal" href="https://www.youtube.com/watch?app=desktop&v=iLhoL1ug1Tc">
+                <img class="imagem_principal" src="imagem/capa_video_heddy.jpeg" width="680" height="380">
+				</a>
+                Lamarr inventou o sistema que serviu de base para os telefones celulares. Durante a Segunda Guerra Mundial, criou um sofisticado aparelho de interferência em rádio para despistar radares nazistas que patenteou em 1940, usando o seu verdadeiro nome, Hedwig Eva Maria Kiesler.
+                <br><br>
+                A ideia surgiu ao lado do compositor George Antheil em frente a um piano. Eles brincavam de dueto, ela repetindo em outra escala as notas que ele tocava, experimentando o controle dos instrumentos, inclusive com a música para o Ballet Mecanique, originalmente escrita para o filme abstrato de Fernand Léger, em 1924. Ou seja, duas pessoas podem conversar entre si mudando frequentemente o canal de comunicação. Basta que façam isso simultaneamente.                
+                Juntos, Antheil e Lamarr submeteram a ideia ao Departamento de Guerra norte-americano, que o recusou, em junho de 1941. Em agosto de 1942, foi patenteado por Antheil e "Hedy Kiesler Markey". A versão inicial consistia na troca de 88 frequências e era feito para despistar radares, mas a ideia pareceu difícil de realizar na época.
+                <br><br>
+                O projeto não foi concretizado até 1962, quando o aparelho passou a ser utilizado por tropas militares dos EUA em Cuba, quando a patente já expirara; a empresa Sylvania adaptou a invenção. Ficou desconhecida, ainda, até 1997, quando a Electronic Frontier Foundation deu a Lamarr um prêmio por sua contribuição. Antheil morreu em 1959.
+                <br><br>
+                A ideia do aparelho de frequência de Lamarr e Antheil serviu de base para a moderna tecnologia de comunicação, tal como COFDM usada em conexões de Wi-Fi e CDMA, usada em telefones celulares. Patentes similares foram registradas por outros países, tais como a Alemanha, em 1935, em que os engenheiros da Telefunken Paul Kotowski e Kurt Dannehl registraram as patentes em 1939 e 1940.
+                Considerada a "mãe do telefone celular", Lamarr fora casada com um fabricante de armas alemão, do qual se separou ao notar o envolvimento dele com o nazismo; foi nesta época que notara como era fácil a um terceiro bloquear o sinal contínuo usado para o controle dos mísseis. Apesar de ter patenteado a ideia de uma frequência que fosse variável no percurso entre emissor e receptor, não ganhou dinheiro com isto. Em 1997 recebeu do Governo dos Estados Unidos menção honrosa "por abrir novos caminhos nas fronteiras da eletrônica". Recebeu o EFF Pioneer Award de 1997. Em 2014 foi introduzida no National Inventors Hall of Fame.
+                <br><br>
+                Lamarr se tornou cidadã norte-americana aos 38 anos, em 10 de abril de 1953. Sua auto-biografia, chamada Ecstasy and Me, foi publicada em 1966. Em uma entrevista de 1969, no The Merv Griffin Show, ela disse que não escreveu ou participou da confecção deste livro e que a maior parte era fruto de ficção. Em 1966, ela processou a editora para parar a publicação, dizendo que muitos detalhes foram inventados pelo ghost writer, Leo Guild. Ela perdeu o processo.
+                <br>
+                No final da década de 1950, Lamarr e o marido, W. Howard Lee, abriram um resort de ski, chamado de Villa LaMarr, em Aspen, no Colorado. Depois do divórcio do casal, seu marido acabou ficando com o resort. The Female Animal (1958) foi seu último filme. Nos anos 1960, ela ainda tentou conseguir um papel no filme Picture Mommy Dead (1966) mas foi mal-sucedida. O papel acabou sendo atribuído a Zsa Zsa Gabor.
+                <br><br>
+                Em 1966, foi detida, sob a acusação de furto, numa loja de departamentos, em Los Angeles, mas as acusações acabaram sendo retiradas. Em 1991, foi novamente detida por furtar medicamentos no valor de pouco mais de 20 dólares, em uma loja da Flórida. Ela não contestou a acusação, para evitar ter de comparecer ao tribunal e, em troca da promessa de não infringir mais nenhuma lei por pelo menos um ano, as acusações foram mais uma vez retiradas.
+                <br><br>                
+                Sepultura de Hedy Lamarr no Cemitério Central de Viena, Grupo 33 G, Sepultura Nr. 80.
+                Em seus últimos anos, a atriz viveu reclusa em sua casa, em Casselberry, região metropolitana de Orlando. Ela recusou vários roteiros, comerciais de televisão, peças de teatro, dizendo que nenhum deles lhe interessava. Em 1974, ela entrou com um processo contra a Warner Bros., no valor de 10 milhões de dólares, declarando que a paraódia de seu nome ("Hedley Lamarr") por Mel Brooks, na comédia Blazing Saddles, era uma invasão de privacidade. O estúdio encerrou o caso com um acordo fora dos tribunais, enquanto Mel Brooks alegou que a atriz "nunca entendeu a piada".
+                <br><br>
+                Com problemas de visão, Hedy Lamarr se retirou da vida pública e se estabeleceu em Miami Beach, na Flórida, em 1981.
+                <br><br>
+                Em 1996, uma grande imagem de Lamarr ganhou o concurso da CorelDRAW naquele ano para a capa da caixa do produto. Por muitos anos, a partir de 1997, todas as caixas do programa vinham com uma ilustração baseada em uma foto de Lamarr. Ela processou a empresa, alegando que eles usaram sua imagem sem autorização, mas a Corel alegou que Lamarr não tinha os direitos daquela foto. O processo terminou em um acordo em 1999.
+                O único lucro que Lamarr obteve com sua invenção foi em 1997, quando a companhia canadense WiLAN propôs um acordo com ela para adquirir 49% dos direitos de marketing de sua patente, enquanto ela continuava com 51%. Ela logo ficou muito amiga do presidente da companhia, Hatim Zaghloul.[32]
+                <br>
+                Hedy e o filho, James Lamarr Loder, cortaram relações abruptamente, quando ele foi morar com outra família. Os dois não se falaram pelos próximos 50 anos e quando Lamarr morreu, James descobriu que ficou fora do testamento da atriz. Ele então entrou na justiça pelo controle dos 3,3 milhões de dólares da atriz em 2000. Ele acabou ficando com 50 mil dólares da fortuna.
+                <br>             <br>  
+                Em seus últimos anos, Lamarr entrava em contato com o mundo apenas pelo telefone, mesmo com seus filhos, netos e amigos mais próximos. Ela costumava ficar pendurada no telefone por seis a sete horas todos os dias, mas praticamente não aceitava visitas, nem encontrava outras pessoas.
+                <b>Você pode saber mais clicando na imagem</b>    
+                <br>
+                </p>
+            </article><!--fim conteudo principal-->
+        </div><!--fim postagens-->        
+        </div><!--fim conteudo-->
+        
+        <footer>
+            <p class="text-white"> 
+                Feito com 
+                <img class="icone icone--footer" src="icone/estudo.svg" 
+                alt="icone de caderno simbolizando que o site foi feito com muito estudo">Luana Oliveira
+            </p>
+        </footer>  
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+        
+        
+        
+        </body>
+        
+        </html>
