@@ -1,0 +1,94 @@
+
+
+body {
+    
+    background: #39eb2c;
+    background: url(../imagem/fundo_logo.webp) repeat-x;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+a:link, a:active, a:visited {
+    color: #39eb2c;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #fbb9b9;
+    
+}
+
+#postagens {
+        width: 80%;
+        margin: 0 auto;
+        background: #f4f4f4;    
+}
+
+ .data-postagem{
+    color: #AA0074;
+	font-size: 0.6em;
+	display: block;
+}
+
+.texto_paragrafo {
+    color: gray;
+    background: #f4f4f4;
+    float: right;
+}
+
+.titulo {
+    font-size: 18px;
+    color:#fc800b;
+    text-transform: uppercase;
+}
+
+.imagem_principal {
+    float: left;
+}
+
+.imagem_video {
+    margin: 0 auto;
+    padding: 10 auto;
+}
+
+ h2 {
+    color:#f4f4f4;
+ }
+
+p {
+    color: gray;
+}
+
+button {
+    background-color: #f4f4f4;
+} 
+
+
+footer {
+    color: #f4f4f4;
+    width: 100%;
+    height: 42px;
+    background-color: #AA0074 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.icone--footer {
+    margin: 0 8px;
+    animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
